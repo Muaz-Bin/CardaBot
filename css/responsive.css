@@ -1,0 +1,297 @@
+@media (min-width: 1400px) {
+  /* .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl,
+  .container-xxl {
+    max-width: 1304px;
+  }
+
+  .swap-area .container {
+    max-width: 1350px;
+  } */
+}
+@media (max-width: 1600px) {
+  .feature-area::after {
+      content: "";
+      position: absolute;
+      left: 50px;
+      right: 50px;
+      top: 100px;
+      bottom: 0;
+      border-radius: 250px;
+      background: linear-gradient(0deg, #f2f8ff, #f2f8ff);
+      z-index: -1;
+  }
+}
+@media (max-width: 1400px) {
+  .register-area .register-step-widget > div .discord-link h2 {
+      font-size: 32px;
+  }
+  .select-package-widget .price {
+      font-size: 40px;
+  }
+  .select-package-widget .price {
+      margin-left: 50px;
+  }
+}
+
+@media (max-width: 1199px) {
+  .register-area .register-step-widget > div h1 {
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 60px;
+  }
+  .register-area .register-step-widget > div h1 span {
+    font-size: 70px;
+    line-height: 80px;
+  }
+  .bot-area .select-package-widget {
+    padding-right: 70px;
+  }
+  .bot-area .select-package-widget > div {
+    margin-left: 0;
+  }
+  .bot-area .select-package-widget > .price {
+    margin-left: 30px;
+  }
+  .register-area .register-step-widget > div .discord-link h2 {
+      font-size: 30px;
+  }
+  .register-area .register-step-widget > div .discord-link .link-copy div {
+      font-size: 20px;
+  }
+  .price span {
+      width: 80px;
+  }
+  .bot-area .select-package-widget > .price {
+      margin-left: 15px;
+      font-size: 40px;
+  }
+}
+
+@media (max-width: 991px) {
+  .navbar .navbar-brand img {
+    max-width: 100%;
+  }
+  .navbar .theme-btn {
+    display: none;
+  }
+  .navbar .navbar-toggler {
+    background-color: #0a093d;
+    border-radius: 21px;
+    padding: 10px;
+  }
+  .register-area .register-step-widget,
+  .register-area .register-step-widget.reverse {
+    flex-direction: column;
+  }
+
+  .register-area .register-step-widget > div h1 {
+    font-size: 44px;
+    line-height: 50px;
+    text-align: left;
+    margin-bottom: 15px;
+  }
+  .register-area .register-step-widget > div p {
+    text-align: left;
+    margin-left: 0;
+  }
+  .register-area .register-step-widget > div {
+    text-align: left !important;
+  }
+  .register-area .register-step-widget > div h1 span {
+    font-size: 50px;
+    line-height: 60px;
+  }
+  .custombot-area .input-form-append input {
+    width: 33%;
+  }
+  .custombot-area .input-form-append button {
+    font-size: 24px;
+  }
+  .register-area .register-step-widget > div {
+    width: 100%;
+  }
+  .register-area .register-step-widget.reverse > div p {
+    text-align: right;
+    margin-right: 0;
+    margin-left: auto;
+  }
+  .register-area .register-step-widget.reverse .text-center {
+    text-align: right !important;
+  }
+  #scrollToTop {
+    bottom: 65px;
+    right: 60px;
+  }
+  .navbar .menu {
+    gap: 0;
+  }
+  .bot-area .select-package-widget {
+      padding-right: 78px;
+      min-width: 490px;
+  }
+}
+
+@media (max-width: 767px) {
+  .register-area .register-step-widget > div p {
+    font-size: 18px;
+  }
+  .hero-area h1 {
+    font-size: 40px;
+    line-height: 56px;
+  }
+  .hero-area .hero-img img {
+    max-width: 220px;
+  }
+  .bot-area .bot-tab-nav .nav-link {
+    padding: 14px 25px;
+  }
+  .register-area .register-step-widget > div .discord-link h2 {
+      font-size: 30px;
+}
+
+@media (max-width: 565px) {
+  .bot-area .bot-tab-nav .nav-link {
+    padding: 12px 18px;
+  }
+  .theme-btn.green-btn {
+    font-size: 20px;
+    line-height: 35px;
+    padding: 4px 20px;
+  }
+  .bot-area h1,
+  .info-area h1 {
+    font-size: 30px;
+  }
+  .hero-area h1 {
+    font-size: 32px;
+    line-height: 40px;
+  }
+  .navbar .navbar-brand img {
+    max-width: 260px;
+  }
+  .register-area .register-step-widget > div h1 {
+    font-size: 34px;
+    line-height: 40px;
+  }
+  .register-area .register-step-widget > div h1 span {
+    font-size: 40px;
+    line-height: 50px;
+  }
+  .custombot-area .input-form-append button {
+    padding: 10px 15px;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .register-area .register-step-widget > div .discord-link .link-copy div {
+      font-size: 14px;
+      line-height: 18px;
+  }
+  .register-area .register-step-widget > div .discord-link h2 {
+      font-size: 20px;
+  }
+  .register-area .step-title {
+    font-size: 32px;
+    line-height: 40px;
+  }
+  .feature-area .feature-box > a .bot {
+    margin-right: 20px;
+  }
+  .feature-area .feature-box > a h4 {
+    font-size: 22px;
+  }
+  .feature-area .feature-box {
+    padding: 7px 20px;
+  }
+  #scrollToTop {
+    bottom: 45px;
+    right: 40px;
+  }
+
+  .register-area .register-step-widget,
+  .register-area .register-step-widget.reverse {
+    padding: 30px 0;
+  }
+
+  .select-package-widget {
+    display: flex;
+    padding: 10px;
+    padding-right: 50px;
+    border: 2px solid transparent;
+    padding-left: 15px;
+  }
+  .select-package-widget .price {
+    margin-left: 15px;
+    font-size: 35px;
+    line-height: 40px;
+  }
+  .select-package-widget h5 {
+    font-size: 12px;
+    line-height: 14px;
+  }
+  .select-package-widget img {
+    max-width: 45px;
+  }
+  .select-package-widget.selected {
+    border-left: 16px solid #4aa13b;
+    padding-left: 10px;
+  }
+  .select-package-widget.selected::after {
+    width: 34px;
+    height: 40px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+  .hero-img {
+      width: 225px;
+      margin: 0 auto;
+  }
+  .navbar .navbar-brand img {
+      max-width: 225px;
+  }
+  .navbar .menu_toggle {
+      width: 22px;
+      height: 22px;
+      position: relative;
+      cursor: pointer;
+      display: block;
+  }
+  .navbar .navbar-toggler {
+      background-color: #0a093d;
+      border-radius: 21px;
+      padding: 7px;
+  }
+  a.cardano-logo {
+      width: 210px;
+      margin-left: 20px;
+  }
+  .register-area .register-step-widget > div .discord-link {
+      padding: 14px 20px;
+  }
+  .register-area .register-step-widget > div .discord-link h2 {
+      font-size: 20px;
+      margin-bottom: 5px;
+  }
+  .bot-area .select-package-widget {
+      padding-right: 78px;
+      min-width: 100%;
+  }
+  .cardabots-price {
+      min-width: 80px;
+      max-width: 80px;
+  }
+  .price span {
+      width: 50px;
+  }
+  .bot-area .select-package-widget > .price {
+      margin-left: 3px;
+      font-size: 21px;
+  }
+  .bot-area .bot-tab-nav .nav-link {
+      padding: 12px 6px;
+      font-size: 13px;
+  }
+}
